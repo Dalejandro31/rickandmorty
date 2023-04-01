@@ -1,0 +1,17 @@
+.contenedorCard{
+    display: block;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    
+}
+.imgCard{
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    
+    
+}
+
+.imgCard:hover{
+    border-radius: 90px;
+    transform: scale(1.1);
+}
