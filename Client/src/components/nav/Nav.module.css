@@ -1,0 +1,66 @@
+.navStyle{
+    background-image: url('./nav.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 150px;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.contenedor_about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+    
+}
+
+.button_about{
+    background-color: #dad7cd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.button_about:hover{
+    background-color: #a3b18a;
+}
+
+.contenedor_home{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+    
+
+}
+
+.button_home{
+    background-color: #dad7cd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+.button_home:hover{
+    background-color: #a3b18a;
+}
+
+.contenedor_favorite{
+
+}
+
